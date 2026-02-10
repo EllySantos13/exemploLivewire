@@ -2,7 +2,7 @@
    <div class="card">
     <h5 class="card-header">Cadastro de Tarefas</h5>
     <div class="card-body">
-        <form wire:submit.prevent='store'>
+        <form wire:submit.prevent='update'>
             <div class="mb-3">
                 <label for="nome" class="form-label">Nome</label>
                 <input type="text" class="form-control"
@@ -28,3 +28,4 @@
     </div>
    </div>
 </div>
+
